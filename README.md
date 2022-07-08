@@ -2,7 +2,7 @@
 ---
 
 Telegram Bot to Bulk Downloading list of urls and Upload to Telegram.
-
+https://t.me/DeltaBotsOfficial
 ### Features:
 
 #### Upload list of urls (2 methods):
@@ -11,8 +11,8 @@ Telegram Bot to Bulk Downloading list of urls and Upload to Telegram.
 
 ## Telegram Support:
 
-[![Channel](https://img.shields.io/badge/TG-Channel-30302f?style=flat&logo=telegram)](https://t.me/xTeamBots)
-[![Group](https://img.shields.io/badge/TG-Group-30302f?style=flat&logo=telegram)](https://t.me/xTeamBotsSupport)
+[![Channel](https://img.shields.io/badge/TG-Channel-30302f?style=flat&logo=telegram)](https://t.me/DeltaBotsOfficial)
+[![Group](https://img.shields.io/badge/TG-Group-30302f?style=flat&logo=telegram)](https://t.me/DeltaBotsOfficial)
 
 ## Credits, and Thanks to
 
