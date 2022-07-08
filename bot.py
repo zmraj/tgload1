@@ -25,8 +25,10 @@ START_BUTTONS=[
 
 CB_BUTTONS=[
     [
-        InlineKeyboardButton("🗂 Zip 🗂", callback_data="zip"),
-        InlineKeyboardButton("📕 One by one 📕", callback_data="1by1"),
+        InlineKeyboardButton("🗂 Zip 🗂", callback_data="zip")
+    ],
+    [
+        InlineKeyboardButton("📕 One by one 📕", callback_data="1by1")
     ]
 ]
 
@@ -150,9 +152,9 @@ async def help(bot, update):
 
 @xbot.on_message(filters.command('link') & OWNER_FILTER & filters.private)
 async def linkloader(bot, update):
-    xlink = await bot.ask(update.chat.id, 'Send your 🔗🔗 links, separated each link by new line', filters='text', timeout=300)
+    xlink = await bot.ask(update.chat.id, 'Send your 🔗🔗 links, separated each link by new line exp\n\nLink1\nLink2\nLink3', filters='text', timeout=300)
     if BUTTONS == True:
-        return await xlink.reply('You wanna upload files as?', True, reply_markup=InlineKeyboardMarkup(CB_BUTTONS))
+        return await xlink.reply('🟥 You wanna upload files as? 🟥', True, reply_markup=InlineKeyboardMarkup(CB_BUTTONS))
     elif BUTTONS == False:
         pass
     dirs = f'./downloads/{update.from_user.id}'
