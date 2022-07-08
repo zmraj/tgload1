@@ -153,7 +153,7 @@ else:
 # Start message
 @xbot.on_message(filters.command('start') & OWNER_FILTER & filters.private)
 async def start(bot, update):
-    await update.reply_text(f"I'm 📥📥📥BulkLoader 📥📥📥\nYou can 📤📤📤📤 upload list of urls\n\n/help for more details!", True, reply_markup=InlineKeyboardMarkup(START_BUTTONS))
+    await update.reply_text(f"I'm 📥📥📥BulkLoader 📥📥📥\nYou can 📤📤📤📤 upload list of urls\n\n/help for more details!\n\n@DeltaBotsOfficial", True, reply_markup=InlineKeyboardMarkup(START_BUTTONS))
 
 
 # Helper msg
