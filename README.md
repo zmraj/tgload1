@@ -1,4 +1,4 @@
-## BulkLoader (Bot)
+## BulkLoad  (Bot)
 ---
 
 Telegram Bot to Bulk Downloading list of urls and Upload to Telegram.
