@@ -17,11 +17,23 @@ BUTTONS = bool(os.environ['BUTTONS']) # Upload mode. If True: will send buttons 
 # Buttons
 START_BUTTONS=[
     [
-        InlineKeyboardButton("Source", url="https://t.me/DeltaBotsOfficial"),
-        InlineKeyboardButton("Channel", url="https://t.me/DeltaBotsOfficial"),
+         InlineKeyboardButton('🎬𝗠𝗢𝗩𝗜𝗘𝗦🎬', url='https://t.me/joinchat/vii7DDEvKCZkNDVl'),
+         InlineKeyboardButton('💢𝗧𝗩 𝗦𝗘𝗥𝗜𝗘𝗦💢', url='https://t.me/joinchat/Qea8OllY2QUzMDY1')
+         
     ],
-    [InlineKeyboardButton("Author", url="https://t.me/DeltaBotsOfficial")],
-]
+    [
+        InlineKeyboardButton("📣📣 BOTS CHANNEL📣📣", url="https://t.me/DeltaBotsOfficial")
+    ],
+    [
+ InlineKeyboardButton(" 𝗠𝗢𝗩𝗜𝗘𝗦 𝗕𝗔𝗖𝗞𝗨𝗣 𝗖𝗛𝗔𝗡𝗡𝗘𝗟𝗦 ", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
+                       ],
+                       [
+                       InlineKeyboardButton("⭐️ 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 1⭐️", url="https://t.me/joinchat/RSzvS3qax24wMmNl"),
+                       InlineKeyboardButton("⭐️ 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 2⭐️", url="https://t.me/joinchat/L_lCa57jPUBhNzU1")
+                      ],[
+                        InlineKeyboardButton('🙋🙋 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 🙋🙋', url='https://telegram.me/share/url?url=https://t.me/joinchat/vii7DDEvKCZkNDVl')
+                    ],
+                    ]
 
 CB_BUTTONS=[
     [
